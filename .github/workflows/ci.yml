@@ -16,3 +16,5 @@ jobs:
         run: yarn lint:check
       - name: yarn test
         run: yarn test
+      - name: yarn test:cypress:ci
+        run: yarn test:cypress:ci
