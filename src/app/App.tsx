@@ -1,5 +1,10 @@
 const App = () => {
-  return <div>Githab actions practice</div>;
+  return (
+    <>
+      <h4>GitHub</h4>
+      <h4>Zenn</h4>
+    </>
+  );
 };
 
 export default App;
