@@ -25,8 +25,8 @@
     "eslint:fix": "eslint \"src/**/*.{ts,tsx}\" --fix",
     "prettier:check": "prettier --check \"src/**/*.{ts,tsx}\"",
     "prettier:fix": "prettier --write \"src/**/*.{ts,tsx}\"",
-    "lint:check": "yarn eslint:check && prettier:check",
-    "lint:fix": "yarn eslint:fix && prettier:fix"
+    "lint:check": "yarn eslint:check && yarn prettier:check",
+    "lint:fix": "yarn eslint:fix && yarn prettier:fix"
   },
   "eslintConfig": {
     "extends": [

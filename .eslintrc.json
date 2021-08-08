@@ -43,6 +43,10 @@
       { "extensions": [".jsx", ".tsx"] }
     ],
     "react/prop-types": "off",
-    "spaced-comment": ["error", "always", { "markers": ["/ <reference"] }]
+    "spaced-comment": ["error", "always", { "markers": ["/ <reference"] }],
+    "react/react-in-jsx-scope": "off",
+    "no-use-before-define": "off",
+    "@typescript-eslint/no-use-before-define": ["error"],
+    "@typescript-eslint/explicit-module-boundary-types": "off"
   }
 }
