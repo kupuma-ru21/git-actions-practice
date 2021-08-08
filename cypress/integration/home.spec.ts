@@ -1,4 +1,4 @@
-const baseUrl = Cypress.config().baseUrl as string;
+import baseUrl from '../utils/helpers';
 
 describe('Cypress', () => {
   beforeEach(() => {
