@@ -1,9 +1,4 @@
-import {
-  fireEvent,
-  getByText,
-  render,
-  RenderResult,
-} from '@testing-library/react';
+import { fireEvent, render, RenderResult } from '@testing-library/react';
 import { createMemoryHistory, MemoryHistory } from 'history';
 import { Router } from 'react-router-dom';
 import App from 'app/home';
