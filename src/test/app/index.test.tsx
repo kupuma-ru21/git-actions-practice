@@ -1,4 +1,9 @@
-import { render, RenderResult } from '@testing-library/react';
+import {
+  fireEvent,
+  getByText,
+  render,
+  RenderResult,
+} from '@testing-library/react';
 import { createMemoryHistory, MemoryHistory } from 'history';
 import { Router } from 'react-router-dom';
 import App from 'app/home';
@@ -21,5 +26,11 @@ describe('ホーム', () => {
     const { sut } = makeSut();
     sut.getByText('GitHub');
     sut.getByText('Zenn');
+  });
+
+  test('「Zenn」押下時、「Zenn」記事一覧画面へ遷移すること', () => {
+    const { sut, history } = makeSut();
+    fireEvent.click(sut.getByText('Zenn'));
+    expect(history.location.pathname).toBe('zenn_article');
   });
 });
