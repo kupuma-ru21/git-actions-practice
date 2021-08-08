@@ -22,9 +22,11 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "eslint:check": "eslint \"src/**/*.{ts,tsx}\"",
+    "eslint:fix": "eslint \"src/**/*.{ts,tsx}\" --fix",
     "prettier:check": "prettier --check \"src/**/*.{ts,tsx}\"",
     "prettier:fix": "prettier --write \"src/**/*.{ts,tsx}\"",
-    "lint:check": "yarn eslint:check"
+    "lint:check": "yarn eslint:check && prettier:check",
+    "lint:fix": "yarn eslint:fix && prettier:fix"
   },
   "eslintConfig": {
     "extends": [
