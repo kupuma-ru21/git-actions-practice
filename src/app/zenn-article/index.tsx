@@ -5,7 +5,7 @@ const ZennArticle = () => {
     <div>
       <h2>Zenn Article</h2>
 
-      <Link to="/">
+      <Link to="/" data-cy="backHomeLink">
         <h4>Homeに戻る</h4>
       </Link>
     </div>
