@@ -18,3 +18,5 @@ jobs:
         run: yarn test
       - name: yarn test:cypress:ci
         run: yarn test:cypress:ci
+      - name: yarn build
+        run: yarn build
