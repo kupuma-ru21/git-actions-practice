@@ -20,7 +20,8 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-yarn-
       - name: yarn install
-        run: yarn install
+        if: steps.yarn-cache.outputs.cache-hit != 'true'
+        run: yarn install # ここでyarn installを実行
       - name: yarn run build
         run: yarn run build
       - name: yarn run lint:check
