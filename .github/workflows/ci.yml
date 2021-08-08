@@ -14,3 +14,5 @@ jobs:
         run: yarn install
       - name: yarn lint:check
         run: yarn lint:check
+      - name: yarn test
+        run: yarn test
