@@ -25,5 +25,7 @@ jobs:
         run: yarn run lint:check
       - name: yarn run test
         run: yarn run test
-      - name: yarn run test:cypress:ci
-        run: yarn run test:cypress:ci
+      # https://docs.cypress.io/guides/continuous-integration/introduction#Caching
+      # node_moddulesをキャッシュ対象にしてるので、サイプレスがサイプレスバイナリをダウンロードしない
+      # - name: yarn run test:cypress:ci
+      #   run: yarn run test:cypress:ci
