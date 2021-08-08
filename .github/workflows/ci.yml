@@ -22,10 +22,12 @@ jobs:
       - name: yarn install
         run: yarn install
       - name: yarn run build
-        run: yarn run build
-      - name: yarn run lint:check
-        run: yarn run lint:check
-      - name: yarn run test
-        run: yarn run test
-      - name: yarn run test:cypress:ci
-        run: yarn run test:cypress:ci
+        run: |
+          cd git-actions-practice/git-actions-practice
+          yarn run build
+      # - name: yarn run lint:check
+      #   run: yarn run lint:check
+      # - name: yarn run test
+      #   run: yarn run test
+      # - name: yarn run test:cypress:ci
+      #   run: yarn run test:cypress:ci
