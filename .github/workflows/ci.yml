@@ -12,7 +12,7 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: '14'
-          cache: npm
+          cache: yarn
       - name: yarn install
         run: yarn install --prefer-offline
       - name: yarn run build
