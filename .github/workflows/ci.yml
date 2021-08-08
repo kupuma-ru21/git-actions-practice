@@ -10,6 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Run a one-line script
+      - name: yarn install
         run: yarn install
+      - name: yarn eslint:check
+        run: yarn eslint:check
 
