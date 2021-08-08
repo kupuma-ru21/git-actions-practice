@@ -1,5 +1,5 @@
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import App from 'app/App';
+import App from 'app/home';
 
 const Router = () => {
   return (
