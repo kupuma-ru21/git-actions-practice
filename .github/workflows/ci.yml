@@ -29,6 +29,5 @@ jobs:
       # node_moddulesをキャッシュ対象にしてるので、サイプレスがサイプレスバイナリをダウンロードしない
       - name: cypress install
         run: ./node_modules/.bin/cypress install
-        run: yarn run test:cypress:ci
       - name: yarn run test:cypress:ci
         run: yarn run test:cypress:ci
