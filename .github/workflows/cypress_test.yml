@@ -14,4 +14,5 @@ jobs:
             node_modules
           key: node-v${{ matrix.node-version }}-deps-${{ hashFiles(format('{0}{1}', github.workspace, '/yarn.lock')) }}
       - run: ./node_modules/.bin/cypress install
-      - run: arn run test:cypress:ci
+      - run: yarn install
+      - run: yarn run test:cypress:ci
