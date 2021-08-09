@@ -1,0 +1,10 @@
+name: cypress test
+on: pull_request
+jobs:
+  build:
+    name: cypress test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: ./node_modules/.bin/cypress install
+      - run: arn run test:cypress:ci
