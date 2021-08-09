@@ -27,5 +27,8 @@ jobs:
         run: yarn run test
       # https://docs.cypress.io/guides/continuous-integration/introduction#Caching
       # node_moddulesをキャッシュ対象にしてるので、サイプレスがサイプレスバイナリをダウンロードしない
-      # - name: yarn run test:cypress:ci
-      #   run: yarn run test:cypress:ci
+      # => 個別でcypressをinstallしてる
+      - name: cypress install
+        run: ./node_modules/.bin/cypress install
+      - name: yarn run test:cypress:ci
+        run: yarn run test:cypress:ci
