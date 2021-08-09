@@ -1,8 +1,8 @@
-name: yarn build
+name: yarn run lint:check
 on: pull_request
 jobs:
   build:
-    name: yarn build
+    name: yarn run lint:check
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -14,4 +14,4 @@ jobs:
             node_modules
           key: node-v${{ matrix.node-version }}-deps-${{ hashFiles(format('{0}{1}', github.workspace, '/yarn.lock')) }}
       - run: yarn install
-      - run: yarn build
+      - run: yarn run lint:check
