@@ -21,8 +21,8 @@ jobs:
         id: cache-cypress-binary
         uses: actions/cache@v2
         with:
-        path: cypress/cache
-        key: cypress-binary-${{ hashFiles('yarn.lock') }}
+          path: cypress/cache
+          key: cypress-binary-${{ hashFiles('yarn.lock') }}
       - name: yarn install
         run: yarn install
       - name: yarn run build
@@ -31,8 +31,6 @@ jobs:
         run: yarn run lint:check
       - name: yarn run test
         run: yarn run test
-      - name: cypress install
-        run: cypress install
       # https://docs.cypress.io/guides/continuous-integration/introduction#Caching
       # node_moddulesをキャッシュ対象にしてるので、サイプレスがサイプレスバイナリをダウンロードしない
       - name: yarn run test:cypress:ci
