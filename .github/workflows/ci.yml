@@ -29,7 +29,7 @@ jobs:
       # node_moddulesをキャッシュ対象にしてるので、サイプレスがサイプレスバイナリをダウンロードしない
       # => 個別でcypressをinstallしてる
       - name: cache cypress node_modules
-        id: node_modules_cache_id
+        id: cypress_node_modules_cache_id
         uses: actions/cache@v2
         with:
           path: |
