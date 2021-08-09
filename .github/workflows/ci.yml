@@ -17,12 +17,11 @@ jobs:
           path: |
             node_modules
           key: node-v${{ matrix.node-version }}-deps-${{ hashFiles(format('{0}{1}', github.workspace, '/yarn.lock')) }}
-      - name: Cache Cypress Binary
-        id: cache-cypress-binary
-        uses: actions/cache@v2
+      - name: Run cypress
+        uses: cypress-io/github-action@v2
         with:
-          path: cypress/cache
-          key: cypress-binary-${{ hashFiles('yarn.lock') }}
+          install: false
+          config: baseUrl=${{ github.event.deployment_status.target_url }}
       - name: yarn install
         run: yarn install
       - name: yarn run build
