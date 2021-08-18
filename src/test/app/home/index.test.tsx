@@ -40,4 +40,16 @@ describe('ホーム', () => {
     fireEvent.click(sut.getByText('Zenn'));
     expect(history.location.pathname).toBe('zenn_article');
   });
+
+  test('レンダリング内容が正しく表示されてること', () => {
+    const { sut } = makeSut();
+    sut.getByText('GitHub');
+    sut.getByText('Zenn');
+  });
+
+  test('「Zenn」押下時、「Zenn」記事一覧画面へ遷移すること', () => {
+    const { sut, history } = makeSut();
+    fireEvent.click(sut.getByText('Zenn'));
+    expect(history.location.pathname).toBe('zenn_article');
+  });
 });
