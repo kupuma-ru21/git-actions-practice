@@ -27,4 +27,15 @@ describe('「Zenn」記事一覧画面', () => {
     fireEvent.click(sut.getByText('Homeに戻る'));
     expect(history.location.pathname).toBe('/');
   });
+
+  test('レンダリング内容が正しく表示されてること', () => {
+    const { sut } = makeSut();
+    sut.getByText('Zenn Article');
+  });
+
+  test('「Homeに戻る」押下時、Home画面へ遷移すること', () => {
+    const { sut, history } = makeSut();
+    fireEvent.click(sut.getByText('Homeに戻る'));
+    expect(history.location.pathname).toBe('/');
+  });
 });
