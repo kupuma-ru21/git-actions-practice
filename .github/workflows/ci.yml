@@ -14,12 +14,6 @@ jobs:
         with:
           node-version: '14.x'
           cache: yarn
-      - uses: actions/cache@v2
-        with:
-          path: node_modules
-          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-yarn-
       - name: yarn install
         run: yarn install
       - name: yarn run build
