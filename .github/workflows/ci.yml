@@ -14,6 +14,6 @@ jobs:
         with:
           node-version: '14.x'
           cache: yarn
-          cache-dependency-path: .yarn/cache
+          cache-dependency-path: .yarn
       - name: yarn install
         run: yarn install
