@@ -17,4 +17,4 @@ jobs:
           cache-dependency-path: yarn.lock
       - name: yarn install
         if: steps.yarn-cache.outputs.cache-hit != 'true'
-        run: yarn install
+        run: yarn install --prefer-offline --frozen-lockfile
