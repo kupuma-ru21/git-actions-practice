@@ -24,4 +24,4 @@ jobs:
             ${{ runner.os }}-yarn-
 
       - name: yarn install
-        run: yarn install
+        run: yarn install --frozen-lockfile --check-files
