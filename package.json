@@ -22,6 +22,7 @@
     "start-server": "yarn start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "test:cache": "react-scripts test",
     "eject": "react-scripts eject",
     "eslint:check": "./node_modules/.bin/eslint \"src/**/*.{ts,tsx}\"",
     "eslint:fix": "./node_modules/.bin/eslint \"src/**/*.{ts,tsx}\" --fix",
