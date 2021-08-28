@@ -33,4 +33,214 @@ describe('ホーム', () => {
     fireEvent.click(sut.getByText('Zenn'));
     expect(history.location.pathname).toBe('zenn_article');
   });
+  test('「Zenn」押下時、「Zenn」記事一覧画面へ遷移すること', () => {
+    const { sut, history } = makeSut();
+    fireEvent.click(sut.getByText('Zenn'));
+    expect(history.location.pathname).toBe('zenn_article');
+  });
+  test('「Zenn」押下時、「Zenn」記事一覧画面へ遷移すること', () => {
+    const { sut, history } = makeSut();
+    fireEvent.click(sut.getByText('Zenn'));
+    expect(history.location.pathname).toBe('zenn_article');
+  });
+  test('「Zenn」押下時、「Zenn」記事一覧画面へ遷移すること', () => {
+    const { sut, history } = makeSut();
+    fireEvent.click(sut.getByText('Zenn'));
+    expect(history.location.pathname).toBe('zenn_article');
+  });
+  test('「Zenn」押下時、「Zenn」記事一覧画面へ遷移すること', () => {
+    const { sut, history } = makeSut();
+    fireEvent.click(sut.getByText('Zenn'));
+    expect(history.location.pathname).toBe('zenn_article');
+  });
+  test('「Zenn」押下時、「Zenn」記事一覧画面へ遷移すること', () => {
+    const { sut, history } = makeSut();
+    fireEvent.click(sut.getByText('Zenn'));
+    expect(history.location.pathname).toBe('zenn_article');
+  });
+  test('「Zenn」押下時、「Zenn」記事一覧画面へ遷移すること', () => {
+    const { sut, history } = makeSut();
+    fireEvent.click(sut.getByText('Zenn'));
+    expect(history.location.pathname).toBe('zenn_article');
+  });
+  test('「Zenn」押下時、「Zenn」記事一覧画面へ遷移すること', () => {
+    const { sut, history } = makeSut();
+    fireEvent.click(sut.getByText('Zenn'));
+    expect(history.location.pathname).toBe('zenn_article');
+  });
+  test('「Zenn」押下時、「Zenn」記事一覧画面へ遷移すること', () => {
+    const { sut, history } = makeSut();
+    fireEvent.click(sut.getByText('Zenn'));
+    expect(history.location.pathname).toBe('zenn_article');
+  });
+  test('「Zenn」押下時、「Zenn」記事一覧画面へ遷移すること', () => {
+    const { sut, history } = makeSut();
+    fireEvent.click(sut.getByText('Zenn'));
+    expect(history.location.pathname).toBe('zenn_article');
+  });
+  test('「Zenn」押下時、「Zenn」記事一覧画面へ遷移すること', () => {
+    const { sut, history } = makeSut();
+    fireEvent.click(sut.getByText('Zenn'));
+    expect(history.location.pathname).toBe('zenn_article');
+  });
+  test('「Zenn」押下時、「Zenn」記事一覧画面へ遷移すること', () => {
+    const { sut, history } = makeSut();
+    fireEvent.click(sut.getByText('Zenn'));
+    expect(history.location.pathname).toBe('zenn_article');
+  });
+  test('「Zenn」押下時、「Zenn」記事一覧画面へ遷移すること', () => {
+    const { sut, history } = makeSut();
+    fireEvent.click(sut.getByText('Zenn'));
+    expect(history.location.pathname).toBe('zenn_article');
+  });
+  test('「Zenn」押下時、「Zenn」記事一覧画面へ遷移すること', () => {
+    const { sut, history } = makeSut();
+    fireEvent.click(sut.getByText('Zenn'));
+    expect(history.location.pathname).toBe('zenn_article');
+  });
+  test('「Zenn」押下時、「Zenn」記事一覧画面へ遷移すること', () => {
+    const { sut, history } = makeSut();
+    fireEvent.click(sut.getByText('Zenn'));
+    expect(history.location.pathname).toBe('zenn_article');
+  });
+  test('「Zenn」押下時、「Zenn」記事一覧画面へ遷移すること', () => {
+    const { sut, history } = makeSut();
+    fireEvent.click(sut.getByText('Zenn'));
+    expect(history.location.pathname).toBe('zenn_article');
+  });
+  test('「Zenn」押下時、「Zenn」記事一覧画面へ遷移すること', () => {
+    const { sut, history } = makeSut();
+    fireEvent.click(sut.getByText('Zenn'));
+    expect(history.location.pathname).toBe('zenn_article');
+  });
+  test('「Zenn」押下時、「Zenn」記事一覧画面へ遷移すること', () => {
+    const { sut, history } = makeSut();
+    fireEvent.click(sut.getByText('Zenn'));
+    expect(history.location.pathname).toBe('zenn_article');
+  });
+  test('「Zenn」押下時、「Zenn」記事一覧画面へ遷移すること', () => {
+    const { sut, history } = makeSut();
+    fireEvent.click(sut.getByText('Zenn'));
+    expect(history.location.pathname).toBe('zenn_article');
+  });
+  test('「Zenn」押下時、「Zenn」記事一覧画面へ遷移すること', () => {
+    const { sut, history } = makeSut();
+    fireEvent.click(sut.getByText('Zenn'));
+    expect(history.location.pathname).toBe('zenn_article');
+  });
+  test('「Zenn」押下時、「Zenn」記事一覧画面へ遷移すること', () => {
+    const { sut, history } = makeSut();
+    fireEvent.click(sut.getByText('Zenn'));
+    expect(history.location.pathname).toBe('zenn_article');
+  });
+  test('「Zenn」押下時、「Zenn」記事一覧画面へ遷移すること', () => {
+    const { sut, history } = makeSut();
+    fireEvent.click(sut.getByText('Zenn'));
+    expect(history.location.pathname).toBe('zenn_article');
+  });
+  test('「Zenn」押下時、「Zenn」記事一覧画面へ遷移すること', () => {
+    const { sut, history } = makeSut();
+    fireEvent.click(sut.getByText('Zenn'));
+    expect(history.location.pathname).toBe('zenn_article');
+  });
+  test('「Zenn」押下時、「Zenn」記事一覧画面へ遷移すること', () => {
+    const { sut, history } = makeSut();
+    fireEvent.click(sut.getByText('Zenn'));
+    expect(history.location.pathname).toBe('zenn_article');
+  });
+  test('「Zenn」押下時、「Zenn」記事一覧画面へ遷移すること', () => {
+    const { sut, history } = makeSut();
+    fireEvent.click(sut.getByText('Zenn'));
+    expect(history.location.pathname).toBe('zenn_article');
+  });
+  test('「Zenn」押下時、「Zenn」記事一覧画面へ遷移すること', () => {
+    const { sut, history } = makeSut();
+    fireEvent.click(sut.getByText('Zenn'));
+    expect(history.location.pathname).toBe('zenn_article');
+  });
+  test('「Zenn」押下時、「Zenn」記事一覧画面へ遷移すること', () => {
+    const { sut, history } = makeSut();
+    fireEvent.click(sut.getByText('Zenn'));
+    expect(history.location.pathname).toBe('zenn_article');
+  });
+  test('「Zenn」押下時、「Zenn」記事一覧画面へ遷移すること', () => {
+    const { sut, history } = makeSut();
+    fireEvent.click(sut.getByText('Zenn'));
+    expect(history.location.pathname).toBe('zenn_article');
+  });
+  test('「Zenn」押下時、「Zenn」記事一覧画面へ遷移すること', () => {
+    const { sut, history } = makeSut();
+    fireEvent.click(sut.getByText('Zenn'));
+    expect(history.location.pathname).toBe('zenn_article');
+  });
+  test('「Zenn」押下時、「Zenn」記事一覧画面へ遷移すること', () => {
+    const { sut, history } = makeSut();
+    fireEvent.click(sut.getByText('Zenn'));
+    expect(history.location.pathname).toBe('zenn_article');
+  });
+  test('「Zenn」押下時、「Zenn」記事一覧画面へ遷移すること', () => {
+    const { sut, history } = makeSut();
+    fireEvent.click(sut.getByText('Zenn'));
+    expect(history.location.pathname).toBe('zenn_article');
+  });
+  test('「Zenn」押下時、「Zenn」記事一覧画面へ遷移すること', () => {
+    const { sut, history } = makeSut();
+    fireEvent.click(sut.getByText('Zenn'));
+    expect(history.location.pathname).toBe('zenn_article');
+  });
+  test('「Zenn」押下時、「Zenn」記事一覧画面へ遷移すること', () => {
+    const { sut, history } = makeSut();
+    fireEvent.click(sut.getByText('Zenn'));
+    expect(history.location.pathname).toBe('zenn_article');
+  });
+  test('「Zenn」押下時、「Zenn」記事一覧画面へ遷移すること', () => {
+    const { sut, history } = makeSut();
+    fireEvent.click(sut.getByText('Zenn'));
+    expect(history.location.pathname).toBe('zenn_article');
+  });
+  test('「Zenn」押下時、「Zenn」記事一覧画面へ遷移すること', () => {
+    const { sut, history } = makeSut();
+    fireEvent.click(sut.getByText('Zenn'));
+    expect(history.location.pathname).toBe('zenn_article');
+  });
+  test('「Zenn」押下時、「Zenn」記事一覧画面へ遷移すること', () => {
+    const { sut, history } = makeSut();
+    fireEvent.click(sut.getByText('Zenn'));
+    expect(history.location.pathname).toBe('zenn_article');
+  });
+  test('「Zenn」押下時、「Zenn」記事一覧画面へ遷移すること', () => {
+    const { sut, history } = makeSut();
+    fireEvent.click(sut.getByText('Zenn'));
+    expect(history.location.pathname).toBe('zenn_article');
+  });
+  test('「Zenn」押下時、「Zenn」記事一覧画面へ遷移すること', () => {
+    const { sut, history } = makeSut();
+    fireEvent.click(sut.getByText('Zenn'));
+    expect(history.location.pathname).toBe('zenn_article');
+  });
+  test('「Zenn」押下時、「Zenn」記事一覧画面へ遷移すること', () => {
+    const { sut, history } = makeSut();
+    fireEvent.click(sut.getByText('Zenn'));
+    expect(history.location.pathname).toBe('zenn_article');
+  });
+  test('「Zenn」押下時、「Zenn」記事一覧画面へ遷移すること', () => {
+    const { sut, history } = makeSut();
+    fireEvent.click(sut.getByText('Zenn'));
+    expect(history.location.pathname).toBe('zenn_article');
+  });
+  test('「Zenn」押下時、「Zenn」記事一覧画面へ遷移すること', () => {
+    const { sut, history } = makeSut();
+    fireEvent.click(sut.getByText('Zenn'));
+    expect(history.location.pathname).toBe('zenn_article');
+  });
+  test('「Zenn」押下時、「Zenn」記事一覧画面へ遷移すること', () => {
+    const { sut, history } = makeSut();
+    fireEvent.click(sut.getByText('Zenn'));
+    expect(history.location.pathname).toBe('zenn_article');
+  });
+  test('「Zenn」押下時、「Zenn」記事一覧画面へ遷移すること', () => {
+    const { sut, history } = makeSut();
+    fireEvent.click(sut.getByText('Zenn'));
+    expect(history.location.pathname).toBe('zenn_article');
+  });
 });

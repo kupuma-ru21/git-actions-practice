@@ -22,16 +22,14 @@
     "start-server": "yarn start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "test:cache": "react-scripts test",
     "eject": "react-scripts eject",
     "eslint:check": "./node_modules/.bin/eslint \"src/**/*.{ts,tsx}\"",
     "eslint:fix": "./node_modules/.bin/eslint \"src/**/*.{ts,tsx}\" --fix",
     "prettier:check": "prettier --check \"src/**/*.{ts,tsx}\"",
     "prettier:fix": "prettier --write \"src/**/*.{ts,tsx}\"",
     "lint:check": "yarn eslint:check && yarn prettier:check",
-    "lint:fix": "yarn eslint:fix && yarn prettier:fix",
-    "cypress:open": "cypress open",
-    "test:cypress:run": "cypress run",
-    "test:cypress:ci": "start-server-and-test 'yarn start-server' http://localhost:3000 'test:cypress:run'"
+    "lint:fix": "yarn eslint:fix && yarn prettier:fix"
   },
   "eslintConfig": {
     "extends": [
@@ -55,7 +53,6 @@
     "@types/react-router-dom": "^5.1.8",
     "@typescript-eslint/eslint-plugin": "^4.29.0",
     "@typescript-eslint/parser": "^4.29.0",
-    "cypress": "^8.2.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.23.4",
