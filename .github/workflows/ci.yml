@@ -20,4 +20,4 @@ jobs:
       - name: yarn test
         run: yarn test
       - name: yarn test:cache
-      run: yarn test:cache
+        run: yarn test:cache
